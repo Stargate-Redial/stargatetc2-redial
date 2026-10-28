@@ -1,0 +1,5 @@
+"Plugin"
+{
+	// Linux dedicated server: the episode1 engine loads <srcds folder>/bin/<file>_i486.so.
+	"file"	"../stargatetc2/addons/botrix"
+}

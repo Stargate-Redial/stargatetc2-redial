@@ -1,0 +1,49 @@
+StargateTC 2: Redial -- third-party components and credits
+============================================================
+
+1. Botrix (payload/addons/botrix.dll and linux/addons/botrix_i486.so, release zip only)
+   ------------------------------------------------------------------------------------
+   The bot plugin is Botrix by Boris Godin ("Borzh"), https://github.com/borzh/botrix,
+   at commit 54fa2fa (src/BASE_COMMIT.txt), with the StargateTC 2 and Stargate: The
+   Last Stand port in src/botrix_stargate.patch.
+
+   The Botrix repository states no license. Its code is published here, as a patch,
+   and built into the plugin, in good faith and with full credit to its author, so
+   that StargateTC 2 players can use it. If you are the author and object, please
+   open an issue: it will be taken down.
+
+2. Source SDK (hl2sdk)
+   -------------------
+   The plugin is built against Valve's Source SDK headers and libraries, in the
+   AlliedModders hl2sdk repository (https://github.com/alliedmodders/hl2sdk, branches
+   "episode1" and "orangebox"), under the Source SDK license.
+
+3. Server browser fix (server-browser-fix/Server-browser-fix.zip)
+   ---------------------------------------------------------------
+   An unmodified copy of the fix published by sg-servers.net:
+   https://fastdl.sg-servers.net/downloads/stargate_tc2/serverBrowser-fix/Server-browser-fix.zip
+   (MD5 cf1752faa984816ef0ac9eb2dab9e6aa). It is kept here in case that download
+   goes away. It contains:
+   - bin/ServerBrowser.dll: the server browser as rebuilt by the Fortress Forever
+     team (https://store.steampowered.com/app/253530/Fortress_Forever/);
+   - bin/engine.dll: Valve's Source SDK Base 2006 engine with two small byte
+     patches (see server-browser-fix/README.md);
+   - platform/: Valve's interface files, as shipped with Left 4 Dead 2 and
+     Fortress Forever.
+   Those files belong to Valve and to the Fortress Forever team.
+
+4. StargateTC 2
+   ------------
+   payload/materials/console/background01.vtf (release zip only) is StargateTC 2's
+   menu background with a "REDIAL V1.0.0" stamp added (tools/redial_splash.py).
+   The screenshots in docs/images come from the mod's ModDB page. Artwork (c) the
+   StargateTC 2 team. Nothing else from the mod is included: you need your own copy.
+
+5. Waypoints and bot settings
+   --------------------------
+   The waypoints (payload/addons/botrix/waypoints) and settings were made for this
+   project.
+
+Half-Life 2 and Source are trademarks of Valve Corporation. Stargate SG-1 is a
+trademark of MGM. This project is not affiliated with Valve, MGM, the StargateTC 2
+team, sg-servers.net or the Fortress Forever team.
